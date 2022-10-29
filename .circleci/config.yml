@@ -34,7 +34,7 @@ workflows:
             - KAIRAT_CONTEXT
           cluster: $DEV_CLUSTER_NAME
           container-image-name-updates: 'container=${DEV_CONTAINER_NAME},tag=dev-${CIRCLE_SHA1}'
-          family: $DEV_TASK_NAME
+          family: $dev_task_name
           service-name: $DEV_SERVICE_NAME
           force-new-deployment: true
           filters:

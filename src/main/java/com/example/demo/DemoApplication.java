@@ -33,6 +33,7 @@ public class DemoApplication {
         return String.format("""
                 <p>Hello</p>
                 <img src= https://www.thoughtco.com/thmb/CoviI4KgInS4AtTkNRtODkZD6BY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-937057490-401a1830296d458e98f62fdc7b6417d1.jpg>
+                <img src= https://www.advantour.com/img/kyrgyzstan/culture/kyrgyzstan-culture.jpg>
                 <p>%s ->(from code) hello</p>
                 <p>%s ->(from code) database</p>
                 <p>%s ->(from code) awsaccesskey</p>
