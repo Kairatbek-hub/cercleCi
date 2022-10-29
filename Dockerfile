@@ -4,7 +4,7 @@ WORKDIR /test/build
 
 COPY . /test/build
 
-RUN mvn clean install -DskipTests=true
+RUN ./mvnw clean package -DskipTests=true
 
 FROM openjdk:17.0.2-jdk-slim
 WORKDIR /test/app
